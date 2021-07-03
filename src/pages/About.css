@@ -1,0 +1,35 @@
+@media (orientation: landscape) {
+  #aboutPage{
+    background-image: url('../assets/abt_bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 100px;
+    color: white;
+  }
+}
+
+@media (orientation: portrait) {
+  #aboutPage{
+    background-image: url('../assets/abt_bg_m.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 100px;
+    color: black;
+    font-size: 12px;
+  }
+}
+
+.about_items{
+  height: 70vh;
+
+}
+
+.about_text{
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding: 10px;
+}

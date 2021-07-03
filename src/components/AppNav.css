@@ -1,0 +1,6 @@
+.appNavbar{
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  background-color: black;
+  color: white
+}

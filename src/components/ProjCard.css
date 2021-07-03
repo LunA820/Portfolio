@@ -1,0 +1,35 @@
+
+.proj_icon {
+  display: block;
+  margin: 0 auto 15px auto;
+  width: 140px;
+  height: auto;
+  border-radius: 100%;
+  background-color: white;
+  border-color: rgba(100, 100, 100, 0.7);
+  border: solid;
+}
+
+.card{
+  background-color: rgba(210, 210, 210, 0.6) !important;
+  width: 310px;
+  max-height: 450px;
+  min-width: 310px;
+  color: black;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+}
+
+.tagGroup{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.projTag{
+  margin-right: 8px;
+  margin-bottom: 7px;
+}
