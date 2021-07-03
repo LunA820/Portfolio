@@ -9,7 +9,7 @@ export default function ProjCard(props) {
   return (
     <Card>
         <Card.Body>
-          <img class="proj_icon" src={props.logo} />
+          <img class="proj_icon" src={props.logo} alt={"Logo"}/>
           <div className="tagGroup">
             {
               props.tagList.map((t)=>{

@@ -1,8 +1,5 @@
 import React from 'react'
 import './Projects.css'
-import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
-import Badge from 'react-bootstrap/Badge'
 import Lt_logo from '../assets/LeetTrader.png'
 import Bj_logo from '../assets/poker.png'
 import Jf_logo from '../assets/fuji.png'

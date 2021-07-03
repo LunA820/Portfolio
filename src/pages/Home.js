@@ -1,6 +1,4 @@
 import React from 'react'
-import bgVideo from '../assets/home_video.mp4'
-
 import './Home.css'
 
 
