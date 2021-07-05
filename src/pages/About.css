@@ -1,11 +1,14 @@
+
+
 @media (orientation: landscape) {
   #aboutPage{
     background-image: url('../assets/abt_bg.jpg');
     background-size: cover;
     height: 100vh;
     width: 100vw;
-    padding-top: 100px;
+    padding-top: 120px;
     color: white;
+    font-size: large;
   }
 }
 
@@ -15,15 +18,14 @@
     background-size: cover;
     height: 100vh;
     width: 100vw;
-    padding-top: 100px;
+    padding-top: 15vh;
     color: black;
-    font-size: 12px;
+    font-size: 17px;
   }
 }
 
 .about_items{
-  height: 70vh;
-
+  height: 75vh;
 }
 
 .about_text{

@@ -19,8 +19,14 @@ export default function ProjCard(props) {
           </div>
           
           <hr />
-          <Card.Title>{props.title}</Card.Title>          
-          <Card.Text>{props.text}<br/><br/></Card.Text>
+          <Card.Title>
+            {props.title} &nbsp;
+            <a href="https://github.com/LunA820" target="_blank" alt={"git link"}>
+              <Badge variant="dark">Git</Badge>
+            </a>
+          </Card.Title>
+                  
+          <Card.Text>{props.text}</Card.Text>
           <Button 
             variant={props.btnVariant} 
             href={props.link}

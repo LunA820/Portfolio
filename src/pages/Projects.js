@@ -12,7 +12,7 @@ function Projects() {
   const proj_text_3 = "JP Fever is an iOS application that provides Japanese vocabulary book and dictation quizzes."
 
   return (
-    <div id="projectPage">
+    <div id="projectPage" className="projPageClass">
       <ProjCard 
         logo={Lt_logo} 
         title="LeetTrader" 

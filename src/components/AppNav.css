@@ -1,6 +1,21 @@
-.appNavbar{
-  display: grid;
-  grid-template-columns: 5fr 1fr;
-  background-color: black;
-  color: white
+@media (orientation: landscape) {
+  .navItems{
+    color: white !important;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    width: 15vw;
+    font-size: large;
+    letter-spacing: 3px;
+  }
+}
+
+@media (orientation: portrait) {
+  .navItems{
+    color: white !important;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 15vw;
+    font-size: 11px;
+    letter-spacing: 1px;
+  }
 }

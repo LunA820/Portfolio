@@ -1,12 +1,16 @@
 #homePage{
   height: 100vh;
   width: 100vw;
-  padding-top: 140px;
-  border: solid;
 }
 
-#first_char {
-  font-size: 15vw;
+.bgVideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .glitch {
@@ -17,6 +21,15 @@
   animation: glitch 2.2s 2.2s infinite;
 }
 
+@media (orientation: landscape) {
+  .ori-responsive {margin-top: 130px;}
+}
+
+@media (orientation: portrait) {
+  .ori-responsive {margin-top: 33vh;}
+}
+
+
 @keyframes glitch {
   1%{
     transform: rotateX(10deg) skewX(90deg);
@@ -25,6 +38,11 @@
     transform: rotateX(0deg) skewX(0deg);
   }
 }
+
+#first_char {
+  font-size: 15vw;
+}
+
 
 .subtitle {
   margin-top: 12vh;
