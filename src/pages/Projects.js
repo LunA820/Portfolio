@@ -18,9 +18,9 @@ function Projects() {
         title="LeetTrader" 
         text={proj_text_1} 
         btnVariant="info"
-        btnTitle="Explore LeetTrader"
         tagList={["MySql", "Express", "React", "Node", "Bootstrap", "REST"]}
         link="https://leettrader-lpzks.ondigitalocean.app/"
+        demo={false}
       />
 
       <ProjCard 
@@ -28,18 +28,18 @@ function Projects() {
         title="Net Blackjack"
         text={proj_text_2}
         btnVariant="warning"
-        btnTitle="Explore Net Blackjack"
         tagList={["Express", "React", "Node", "Bootstrap"]}
         link="https://blackjack-qag8x.ondigitalocean.app/"
+        demo={false}
       />
 
       <ProjCard 
         logo={Jf_logo} 
         title="JP Fever" 
         text={proj_text_3} 
-        btnTitle="See Demo"
         tagList={["Xcode", "Swift"]}
         btnVariant="dark"
+        demo={true}
       />
     </div>
   )
