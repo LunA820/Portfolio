@@ -8,7 +8,7 @@ import ProjCard from '../components/ProjCard'
 
 function Projects() {
   const proj_text_1 = "LeetTrader is a stock trading simulator that could help novice investor to practice investment."
-  const proj_text_2 = "Net Blackjack is a classic banker game. Player needs to get a larger hand worth in order to win."
+  const proj_text_2 = "FSM-Blackjack is a banker game. The game is implemented by using OO-Design (State Pattern)."
   const proj_text_3 = "JP Fever is an iOS application that provides Japanese vocabulary book and dictation quizzes."
 
   return (
@@ -25,10 +25,10 @@ function Projects() {
 
       <ProjCard 
         logo={Bj_logo}
-        title="Net Blackjack"
+        title="FSM-Blackjack"
         text={proj_text_2}
         btnVariant="warning"
-        tagList={["Express", "React", "Node", "Bootstrap"]}
+        tagList={["OO-Design", "React", "Node", "Bootstrap"]}
         link="https://blackjack-qag8x.ondigitalocean.app/"
         demo={false}
       />
