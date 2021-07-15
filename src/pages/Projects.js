@@ -18,7 +18,7 @@ function Projects() {
         title="LeetTrader" 
         text={proj_text_1} 
         btnVariant="info"
-        tagList={["MySql", "Express", "React", "Node", "Bootstrap", "REST"]}
+        tagList={["MongoDB", "Express", "React", "Node", "MySQl", "Bootstrap", "REST"]}
         link="https://leettrader-lpzks.ondigitalocean.app/"
         demo={false}
       />
