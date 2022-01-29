@@ -2,7 +2,6 @@ import React from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import Badge from 'react-bootstrap/Badge'
-import {BrowserRouter as Router, Link} from 'react-router-dom';
 import './ProjCard.css'
 
 
@@ -29,19 +28,7 @@ export default function ProjCard(props) {
                   
           <Card.Text>{props.text}</Card.Text>
           
-          {
-            props.demo ? <Router>
-              <Link to="/JpFever" target="_blank">
-                <Button variant="dark">See Demo</Button>
-              </Link>
-            </Router>:<Button 
-            variant={props.btnVariant} 
-            href={props.link}
-            target="_blank"
-            >
-              Explore {props.title}
-            </Button>
-          }
+          
         </Card.Body>
       </Card>
   )

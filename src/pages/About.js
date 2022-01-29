@@ -10,14 +10,14 @@ import './About.css'
 function About() {
   let s1 = "I am a HongKonger, my Chinese name means moon, my favourite drink is coffee, "
   s1 += "I love Gundam and Batman, I have a collection of super hero figures, "
-  s1 += "I learn guitar during spare time, and I survived a car accident when I was 7."
+  s1 += "I learn guitar during spare time, and I survived a car accident when I was 9."
 
-  let s2 = "I graduated from the Computer Science of UNSW and "
-  s2 += "achieved excellent grades in courses related to algorithm, O-O design & group projects. "
-  s2 += "Out of school, I taught myself web technologies such as HTML+CSS, Node, React and etc. "
-  s2 += "I am also experienced in mobile development and built an iOS apps for Japanese learning."
+  let s2 = "I’m Luna Yang, and I’m a software engineer and web developer. I am a computer science graduate from UNSW. "
+  s2 += "I am experienced in .NET, NodeJs and other web development technologies such as ReactJs, SQL. "
+  s2 += "In addition to my day-to-day work as a software engineer, I love to work on my side projects " 
+  s2 += "to keep myself updated with the latest technologies and trends."
 
-  let s3 = "I love to explore new things. I am continuously learning new technologies "
+  let s3 = "I love to explore new things and I am continuously learning new technologies "
   s3 += "and sharpening my programming skills. Music is my balance, I wish that "
   s3 += "one day I will become a proficient guitar player. "
 
